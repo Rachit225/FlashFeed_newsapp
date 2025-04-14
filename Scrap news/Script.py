@@ -3,7 +3,7 @@ from firebase import firebase
 from transformers import pipeline  # ✅ Added for summarization
 
 # GNews API endpoint and key
-GNEWS_API_KEY = "3e9a2ad4b3431efa2160de3216076846"  # Get it from https://gnews.io/
+GNEWS_API_KEY = "/api key"  # Get it from https://gnews.io/
 GNEWS_URL = f"https://gnews.io/api/v4/top-headlines?country=in&lang=en&apikey={GNEWS_API_KEY}"
 
 if GNEWS_API_KEY == "YOUR_GNEWS_API_KEY":
@@ -73,7 +73,7 @@ except Exception as e:
 print(f"\nTotal articles found: {len(all_news_data)}")
 
 config = {
-    "apiKey": "AIzaSyDCRHB53I5_3aI4ZEyCBgANgXVTq3v4LqE",
+    "apiKey": "api key2",
     "authDomain": "news-app-e1742.firebaseapp.com",
     "databaseURL": "https://news-app-e1742-default-rtdb.firebaseio.com",
     "storageBucket": "news-app-e1742.firebasestorage.app"
